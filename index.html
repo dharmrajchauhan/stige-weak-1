@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Goa Beach</title>
+</head>
+<body>
+    <section class="hsec">
+        <header>
+            <h2 class="logo">Travel</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="bg_video.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+                 eveniet fugit omnis repellat blanditiis voluptatum hic, esse 
+                 exercitationem quibusdam quisquam quasi molestias saepe! 
+                 Reprehenderit repellendus voluptas perferendis dignissimos iste, 
+                 ut maiores sunt inventore fugit mollitia quae assumenda enim 
+                 laudantium. Perferendis consequuntur possimus iste sint tempora 
+                 magni voluptas optio eveniet. Velit.</p>
+        </div>
+
+    </section>
+    
+    <div class="menu">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Dest">Destination</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#cont">Contact</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <ul class="contact">
+            <li><a href="https://www.facebook.com/dharmraj.---"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="https://twitter.com/ChauhanDharmra5"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/draaj.in/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.hsec');
+
+        menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+
+
+
+</body>
+</html>
